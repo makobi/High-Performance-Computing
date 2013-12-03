@@ -5,7 +5,7 @@ This is an adaptation made by:
 	Department of Computer Science
 	801-11-7707 
 
-# $\Id$
+
 #
 # This file is part of BCCD, an open-source live CD for computational science
 # education.
