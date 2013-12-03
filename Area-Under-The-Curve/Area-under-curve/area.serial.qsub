@@ -1,0 +1,9 @@
+
+#PBS -q batch
+#PBS -o area.serial.out
+#PBS -e area.serial.err
+#PBS -l nodes=1:ppn=1
+
+cd $PBS_O_WORKDIR
+
+time ./area.c-serial -l 0.0 -r 10.0 -n 100000000

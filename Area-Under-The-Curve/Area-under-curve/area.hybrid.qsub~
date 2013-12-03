@@ -1,0 +1,11 @@
+#PBS -q batch
+#PBS -o area.hybrid.out
+#PBS -e area.hybrid.err
+#PBS -l nodes=2:ppn=1
+
+export OMP_NUM_THREADS=2
+
+cd $PBS_O_WORKDIR
+
+time mpirun -np 2 -machinefile $PBS_NODEFILE \
+./area.c-mpi-openmp -l 0.0 -r 500.0 -n 100000000
