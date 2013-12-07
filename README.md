@@ -1,1 +1,1 @@
-Area under the curve, scaling, and chapel are still missing.
+Scaling, and chapel are still missing.
