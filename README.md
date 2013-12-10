@@ -1,1 +1,1 @@
-Scaling, and chapel are still missing.
+Chapel is still missing.
